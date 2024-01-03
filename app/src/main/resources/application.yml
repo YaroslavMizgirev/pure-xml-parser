@@ -1,0 +1,4 @@
+country-list:
+  url: "https://www.artlebedev.ru/country-list/"
+rosstat-okei:
+  url: "https://rosstat.gov.ru/opendata/7708234640-okei/data-20230228-structure-20180402.csv"

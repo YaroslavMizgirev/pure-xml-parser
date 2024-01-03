@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:user_namespace="http://www.mym.org/country1/"
+        user_namespace:version="1.0"
+        targetNamespace="http://www.mym.org/country1/"
+        elementFormDefault="qualified">
+
+    <element name="countries" type="user_namespace:countries"/>
+
+    <complexType name="countries">
+        <sequence>
+            <element name="header" type="user_namespace:header"/>
+            <element name="country" type="user_namespace:country" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="header">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="fullname" type="string"/>
+            <element name="english" type="string"/>
+            <element name="alpha2" type="string"/>
+            <element name="alpha3" type="string"/>
+            <element name="iso" type="string"/>
+            <element name="location" type="string"/>
+            <element name="location-precise" type="string"/>
+            <element name="dialing-code" type="string" nillable="true" minOccurs="0"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="country">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="fullname" type="string"/>
+            <element name="english" type="string"/>
+            <element name="alpha2" type="string"/>
+            <element name="alpha3" type="string"/>
+            <element name="iso" type="string"/>
+            <element name="location" type="string"/>
+            <element name="location-precise" type="string"/>
+            <element name="dialing-code" type="string" nillable="true" minOccurs="0"/>
+        </sequence>
+    </complexType>
+</schema>

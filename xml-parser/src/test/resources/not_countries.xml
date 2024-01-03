@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country-list>
+	<header>
+		<ru-name>Наименование</ru-name>
+		<ru-fullname>Полное наименование</ru-fullname>
+		<en-name>На английском</en-name>
+		<alpha2>Alpha2</alpha2>
+		<alpha3>Alpha3</alpha3>
+		<iso>ISO</iso>
+		<world-location>Часть света</world-location>
+		<location-precise>Расположение</location-precise>
+		<dialing-code>Телефонный код</dialing-code>
+	</header>
+
+	<country>
+		<ru-name>Абхазия</ru-name>
+		<ru-fullname>Республика Абхазия</ru-fullname>
+		<en-name>Abkhazia</en-name>
+		<alpha2>AB</alpha2>
+		<alpha3>ABH</alpha3>
+		<iso>895</iso>
+		<world-location>Азия</world-location>
+		<location-precise>Закавказье</location-precise>
+		<dialing-code>+840</dialing-code>
+	</country>
+
+	<country>
+		<ru-name>Австралия</ru-name>
+		<ru-fullname> </ru-fullname>
+		<en-name>Australia</en-name>
+		<alpha2>AU</alpha2>
+		<alpha3>AUS</alpha3>
+		<iso>036</iso>
+		<world-location>Океания</world-location>
+		<location-precise>Австралия и Новая Зеландия</location-precise>
+		<dialing-code>+61</dialing-code>
+	</country>
+
+	<country>
+		<ru-name>Азербайджан</ru-name>
+		<ru-fullname>Республика Азербайджан</ru-fullname>
+		<en-name>Azerbaijan</en-name>
+		<alpha2>AZ</alpha2>
+		<alpha3>AZE</alpha3>
+		<iso>031</iso>
+		<world-location>Азия</world-location>
+		<location-precise>Западная Азия</location-precise>
+		<dialing-code>+994</dialing-code>
+	</country>
+
+</country-list>
